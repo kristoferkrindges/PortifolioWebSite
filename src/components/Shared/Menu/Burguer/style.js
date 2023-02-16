@@ -63,7 +63,7 @@ export const SidebarLink = styled(LinkR)`
 	color: ${({ theme }) => theme.title};
 	cursor: pointer;
 	&:hover {
-		color: ${({ theme }) => theme.buttons};
+		color: ${({ theme }) => theme.turtle};
 		transition: 0.2s ease-in-out;
 	}
 `;
@@ -75,7 +75,7 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
 	border-radius: 50px;
-	background: ${({ theme }) => theme.buttons};
+	background: ${({ theme }) => theme.turtle};
 	white-space: nowrap;
 	padding: 16px 64px;
 	color: white;

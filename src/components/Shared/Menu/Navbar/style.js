@@ -54,7 +54,7 @@ export const NavLogo = styled(LinkR)`
 		font-size: 20px;
 	}
 	h1:hover {
-		color: #fc4c35;
+		color: ${({ theme }) => theme.turtle};
 	}
 	@media screen and (max-width: 768px) {
 		h1 {
@@ -73,7 +73,7 @@ export const MobileIcon = styled.div`
 		transform: translate(-100%, 60%);
 		font-size: 1.8rem;
 		cursor: pointer;
-		color: ${({ theme }) => theme.buttons};
+		color: ${({ theme }) => theme.turtle};
 	}
 `;
 
@@ -93,7 +93,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLink = styled(LinkR)`
-	color: ${({ theme }) => theme.text};
+	color: ${({ theme }) => theme.title};
 	font-weight: bold;
 	display: flex;
 	align-items: center;
@@ -107,9 +107,9 @@ export const NavLink = styled(LinkR)`
 	}
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		border-bottom: 1px solid #fc4c35;
-		border-top: 1px solid #fc4c35;
-		color: #fc4c35;
+		border-bottom: 1px solid ${({ theme }) => theme.turtle};
+		/* border-top: 1px solid #fc4c35; */
+		color: ${({ theme }) => theme.turtle};
 	}
 `;
 
@@ -125,7 +125,7 @@ export const NavLinks = styled(LinkS)`
 		border-bottom: 3px solid #01bf71;
 	}
 	&:hover {
-		color: #fc4c35;
+		color: ${({ theme }) => theme.turtle};
 		font-size: 20px;
 	}
 `;
@@ -141,7 +141,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
 	border-radius: 50px;
-	background: ${({ theme }) => theme.buttons};
+	background: ${({ theme }) => theme.turtle};
 	white-space: nowrap;
 	padding: 10px 22px;
 	color: black;
