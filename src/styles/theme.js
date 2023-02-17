@@ -6,6 +6,7 @@ export const lightTheme = {
 	title: "rgb(60, 60, 60)",
 	buttons: "rgb(60, 60, 60)",
 	buttcolor: "white",
+	inverted: "white",
 };
 export const darkTheme = {
 	text: "white",
@@ -14,4 +15,5 @@ export const darkTheme = {
 	navbar: "rgba(22, 24, 47, 1)",
 	background: "#242323",
 	buttons: "white",
+	inverted: "black",
 };
