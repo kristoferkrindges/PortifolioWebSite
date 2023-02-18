@@ -3,6 +3,7 @@ import Menu from "../Shared/Menu";
 import About from "./About";
 import Header from "./Header";
 import Hero from "./Hero";
+import Service from "./Service";
 export default function Home() {
 	return (
 		<>
@@ -10,6 +11,7 @@ export default function Home() {
 			{/* <Header></Header> */}
 			<Hero></Hero>
 			<About></About>
+			<Service></Service>
 		</>
 	);
 }
