@@ -58,7 +58,7 @@ export const Container = styled.section`
 
 export const MainText = styled.div`
 	position: relative;
-	max-width: 600px;
+	width: 600px;
 `;
 
 export const Title = styled.h3`

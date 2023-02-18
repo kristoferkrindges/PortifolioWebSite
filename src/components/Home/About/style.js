@@ -95,7 +95,7 @@ export const Container = styled.div`
 	width: 100%;
 	height: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	padding: 0px 0px 0px 0px;
 	transition: 0.5s;
@@ -111,7 +111,7 @@ export const My = styled.div`
 	/* min-height: 40vh;
 	width: 25vw; */
 	height: 60vh;
-	width: 80vh;
+	width: 700px;
 	cursor: pointer;
 	transition: opacity 0.5s ease-out;
 	&::before {
@@ -246,7 +246,7 @@ export const HireMe = styled.button`
 
 export const AbMe = styled.div`
 	height: 60vh;
-	width: 80vh;
+	width: 750px;
 	/* box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.05);
 	background: white;
 	border-radius: 20px;
@@ -280,7 +280,7 @@ export const Card = styled.div`
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	gap: 5%;
+	gap: 1.1%;
 `;
 
 export const Cards = styled.div`
@@ -290,6 +290,7 @@ export const Cards = styled.div`
 	box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.05);
 	width: 100%;
 	height: 28.8vh;
+	width: 20vw;
 `;
 
 export const CardSelect = styled.div`
