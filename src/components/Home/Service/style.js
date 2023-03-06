@@ -28,7 +28,7 @@ export const IoColorPalette = styled(IoColorPaletteOutline)`
 
 export const Section = styled.section`
 	width: 100%;
-	min-height: 90vh;
+	min-height: 55vh;
 `;
 
 export const H5 = styled.h5`
