@@ -3,6 +3,7 @@ import Menu from "../Shared/Menu";
 import About from "./About";
 import Header from "./Header";
 import Hero from "./Hero";
+import Projects from "./Projects";
 import Service from "./Service";
 import Skills from "./Skills";
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 			<About></About>
 			<Service></Service>
 			<Skills></Skills>
+			<Projects></Projects>
 		</>
 	);
 }
