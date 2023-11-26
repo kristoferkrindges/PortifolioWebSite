@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const Section = styled.section`
 	width: 100%;
-	min-height: 90vh;
+	min-height: 75vh;
 `;
 
 export const H5 = styled.h5`
